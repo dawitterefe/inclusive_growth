@@ -1,0 +1,27 @@
+# Inclusive Growth Portal - Remaining Tasks
+
+Last updated: 2026-02-27
+
+## Completed (Initial Implementation)
+- [x] Laravel 12 + Breeze (Blade) installation
+- [x] Brand theme (Dark Green #279C00, Golden Yellow #FEC014)
+- [x] Sidebar layout with responsive mobile menu
+- [x] Authentication with RBAC (roles: super_admin, admin, dept_head, staff, guest)
+- [x] Dashboard with welcome, stats, recent documents, announcements, quick links
+- [x] Document Management (list, upload, show, download with filters)
+- [x] Employee Directory (list, search, filter by department)
+- [x] Announcements (public list + admin CRUD)
+- [x] Quick Links (public list + admin CRUD)
+- [x] User management (admin CRUD)
+- [x] Database migrations and seeders
+- [x] Role middleware
+
+## Future Enhancements (Optional)
+- [ ] Document edit/delete for authorized roles
+- [ ] Employee CRUD in admin
+- [ ] Audit logs for document access
+- [ ] Two-factor authentication
+- [ ] Export directory (PDF/Excel)
+- [ ] Document version history UI
+- [ ] Governance policy documents (linked from portal)
+- [ ] Session timeout configuration refinement
